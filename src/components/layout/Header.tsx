@@ -32,9 +32,9 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src={`${BASE_URL}images/brand/logo.jpg`}
+              src={`${BASE_URL}images/brand/logo-horizontal.png`}
               alt="ZpopMed S.A. de C.V."
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 
