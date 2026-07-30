@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { ArrowRight, Check } from 'lucide-react';
 import { productCategories } from '../data/products';
+import { BASE_URL } from '../config';
 
 export default function Products() {
   const { hash } = useLocation();
@@ -66,7 +67,7 @@ export default function Products() {
                 <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
                     <img
-                      src={category.image}
+                      src={`${BASE_URL}${category.image}`}
                       alt={category.name}
                       className="w-full h-full object-cover"
                     />

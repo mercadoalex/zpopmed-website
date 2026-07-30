@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { BASE_URL } from '../../config';
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <img
-              src="/images/brand/logo.jpg"
+              src={`${BASE_URL}images/brand/logo.jpg`}
               alt="ZpopMed S.A. de C.V."
               className="h-14 w-auto mb-4 brightness-0 invert"
             />

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Award, Truck, HeartPulse } from 'lucide-react';
 import { productCategories } from '../data/products';
+import { BASE_URL } from '../config';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-secondary-800 via-secondary-700 to-primary-700 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[url('/images/products/surgery-retractors.jpg')] bg-cover bg-center" />
+          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${BASE_URL}images/products/surgery-retractors.jpg)` }} />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-32">
           <div className="max-w-3xl">
@@ -89,7 +90,7 @@ export default function Home() {
               >
                 <div className="aspect-[4/3] overflow-hidden bg-gray-100">
                   <img
-                    src={category.image}
+                    src={`${BASE_URL}${category.image}`}
                     alt={category.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -148,17 +149,17 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/products/retractors-set.jpg"
+                src={`${BASE_URL}images/products/retractors-set.jpg`}
                 alt="Set de retractores Thompson"
                 className="rounded-xl shadow-md w-full h-48 object-cover"
               />
               <img
-                src="/images/products/retractor-arm.jpg"
+                src={`${BASE_URL}images/products/retractor-arm.jpg`}
                 alt="Brazo retractor"
                 className="rounded-xl shadow-md w-full h-48 object-cover"
               />
               <img
-                src="/images/products/omni-tract.jpg"
+                src={`${BASE_URL}images/products/omni-tract.jpg`}
                 alt="Sistema Omni-Tract"
                 className="rounded-xl shadow-md w-full h-48 object-cover col-span-2"
               />

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Target, Eye, Heart, Users, Award, Globe, ArrowRight } from 'lucide-react';
+import { BASE_URL } from '../config';
 
 export default function About() {
   return (
@@ -42,7 +43,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img
-                src="/images/products/thompson-cases.jpg"
+                src={`${BASE_URL}images/products/thompson-cases.jpg`}
                 alt="Instrumental quirúrgico ZpopMed"
                 className="rounded-2xl shadow-lg w-full"
               />

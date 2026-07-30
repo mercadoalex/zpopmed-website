@@ -16,7 +16,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Sistemas de retracción Thompson y Omni-Tract para cirugía abierta',
     description:
       'Sistemas de retracción quirúrgica de alta precisión para procedimientos de cirugía abierta. Incluimos los sistemas Thompson Surgical Instruments y Omni-Tract, reconocidos mundialmente por su versatilidad, durabilidad y facilidad de uso en quirófano. Amplia gama de valvas, brazos articulados y accesorios.',
-    image: '/images/products/retractors-set.jpg',
+    image: 'images/products/retractors-set.jpg',
     icon: '🔧',
     brands: ['Thompson Surgical Instruments', 'Omni-Tract'],
     features: [
@@ -33,7 +33,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Instrumental completo para cirugía laparoscópica de mínima invasión',
     description:
       'Línea completa de instrumental para cirugía laparoscópica incluyendo pinzas, tijeras, disectores, aplicadores de clips y más. Diseñados para ofrecer máxima ergonomía y precisión en procedimientos de mínima invasión.',
-    image: '/images/products/surgical-instruments-display.jpg',
+    image: 'images/products/surgical-instruments-display.jpg',
     icon: '🔬',
     brands: ['Purple Surgical'],
     features: [
@@ -50,7 +50,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Trocares de acceso para cirugía laparoscópica',
     description:
       'Trocares de última generación para acceso abdominal en cirugía laparoscópica. Disponibles en múltiples diámetros con sistemas de sellado avanzados que minimizan la fuga de gas y proporcionan acceso seguro y estable.',
-    image: '/images/products/surgical-instruments-table.jpg',
+    image: 'images/products/surgical-instruments-table.jpg',
     icon: '🎯',
     brands: ['Purple Surgical'],
     features: [
@@ -67,7 +67,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Dispositivos de energía bipolar para sellado y corte de tejidos',
     description:
       'Dispositivos avanzados de energía bipolar para sellado y corte simultáneo de vasos y tejidos. Tecnología de última generación que permite procedimientos más rápidos y seguros con mínimo daño térmico lateral.',
-    image: '/images/products/thompson-cases.jpg',
+    image: 'images/products/thompson-cases.jpg',
     icon: '⚡',
     brands: ['Healnoc'],
     features: [
@@ -84,7 +84,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Grapadoras lineales y circulares para anastomosis',
     description:
       'Sistemas de grapeo quirúrgico para corte y anastomosis. Grapadoras lineales, circulares y endoscópicas con tecnología de triple hilera de grapas para mayor seguridad hemostática.',
-    image: '/images/products/surgical-instruments-display.jpg',
+    image: 'images/products/surgical-instruments-display.jpg',
     icon: '📎',
     brands: ['Purple Surgical'],
     features: [
@@ -101,7 +101,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Mallas para reparación de hernias y defectos de pared',
     description:
       'Mallas quirúrgicas de alta calidad para reparación de hernias inguinales, ventrales e incisionales. Materiales biocompatibles diseñados para una óptima integración tisular y mínima respuesta inflamatoria.',
-    image: '/images/products/thompson-cases.jpg',
+    image: 'images/products/thompson-cases.jpg',
     icon: '🛡️',
     features: [
       'Polipropileno de baja densidad',
@@ -117,7 +117,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Sistemas de drenaje quirúrgico para manejo postoperatorio',
     description:
       'Sistemas de drenaje quirúrgico para el manejo eficiente de fluidos postoperatorios. Incluye drenajes cerrados con succión, drenajes pasivos y accesorios para fijación y medición.',
-    image: '/images/products/retractor-arm.jpg',
+    image: 'images/products/retractor-arm.jpg',
     icon: '💧',
     features: [
       'Drenajes con succión cerrada tipo Jackson-Pratt',
@@ -133,7 +133,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Instrumental y accesorios para procedimientos endoscópicos',
     description:
       'Línea completa de instrumental y accesorios para endoscopia diagnóstica y terapéutica. Pinzas de biopsia, asas de polipectomía, guías, catéteres y más.',
-    image: '/images/products/surgical-instruments-table.jpg',
+    image: 'images/products/surgical-instruments-table.jpg',
     icon: '🔍',
     features: [
       'Pinzas de biopsia estándar y jumbo',

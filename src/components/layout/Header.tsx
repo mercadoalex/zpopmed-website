@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
+import { BASE_URL } from '../../config';
 
 const navLinks = [
   { to: '/', label: 'Inicio' },
@@ -31,7 +32,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/images/brand/logo.jpg"
+              src={`${BASE_URL}images/brand/logo.jpg`}
               alt="ZpopMed S.A. de C.V."
               className="h-12 w-auto"
             />
