@@ -10,9 +10,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <img
-              src={`${BASE_URL}images/brand/logo.jpg`}
+              src={`${BASE_URL}images/brand/logo-dark.png`}
               alt="ZpopMed S.A. de C.V."
-              className="h-14 w-auto mb-4 brightness-0 invert"
+              className="h-14 w-auto mb-4"
             />
             <p className="text-sm text-gray-400 leading-relaxed">
               Distribuidor de instrumental médico quirúrgico de alta calidad. 
